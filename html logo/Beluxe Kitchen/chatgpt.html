@@ -1,0 +1,447 @@
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Specials</title>
+   <body>
+
+    <nav>
+        <a href="index copy.html">HOME</a>
+        <a href="about us.html">ABOUT US</a>
+        <a href="main menu.html">MENU</a>
+        <a href="specials.html">OUR SPECIALS</a>
+        <a href="contact.html">CONTACT US</a>
+    </nav>
+
+    <main class="specials">
+        <h1>Our Specials</h1>
+        <p class="intro">
+            Enjoy our exclusive offers, delicious meals and special packages.
+        </p>
+
+        <ul>
+            <li>🎂 Birthday Specials</li>
+            <li>💍 Anniversary Specials</li>
+            <li>❤️ Valentine's Specials</li>
+            <li>🌹 Honeymoon Specials</li>
+            <li>👴 Senior Meals</li>
+            <li>🍽️ Family Feasts</li>
+            <li>💚 Deluxe Wellness Special</li>
+        </ul>
+    </main>
+<style>
+        /* Reset default browser spacing */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Main page styling */
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #1a1a1a, #3b1d0f);
+            color: white;
+            min-height: 100vh;
+        }
+
+        /* Navigation bar */
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.8);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Navigation links */
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 10px 15px;
+            border-radius: 20px;
+            transition: 0.3s;
+        }
+
+        /* Navigation hover effect */
+        nav a:hover {
+            background-color: #ff9800;
+            color: #1a1a1a;
+            transform: translateY(-3px);
+        }
+
+        /* Main content */
+        .specials {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        /* Main heading */
+        h1 {
+            font-size: 50px;
+            color: #ffb347;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 8px black;
+        }
+
+        /* Subtitle */
+        .intro {
+            font-size: 18px;
+            color: #ddd;
+            margin-bottom: 40px;
+        }
+
+        /* List container */
+        ul {
+            list-style: none;
+            max-width: 900px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 25px;
+        }
+
+        /* Individual special cards */
+        li {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 30px 20px;
+            border-radius: 15px;
+            font-size: 20px;
+            font-weight: bold;
+ color: #fff;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+            transition: 0.3s ease;
+            backdrop-filter: blur(8px);
+        }
+
+        /* Card hover effect */
+        li:hover {
+            transform: translateY(-10px) scale(1.03);
+            background: linear-gradient(135deg, #ff9800, #ff5722);
+            color: white;
+            box-shadow: 0 12px 30px rgba(255, 152, 0, 0.4);
+        }
+
+        /* Mobile navigation */
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            h1 {
+                font-size: 38px;
+            }
+
+            .specials {
+                padding: 40px 15px;
+            }
+        }
+    </style>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Our Menu</title>
+
+    <style>
+        /* Remove default browser spacing */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Main page */
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #1b0d08, #5a2a0c);
+            color: white;
+            min-height: 100vh;
+        }
+
+        /* Navigation bar */
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.85);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        /* Navigation links */
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 16px;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+        }
+
+        /* Navigation hover effect */
+        nav a:hover {
+            background: #d4a017;
+            color: #1b0d08;
+            transform: translateY(-3px);
+        }
+
+        /* Menu heading area */
+        .menu-header {
+            text-align: center;
+            padding: 70px 20px 40px;
+        }
+
+        .menu-header h1 {
+            font-size: 55px;
+            color: #ffd166;
+            text-shadow: 3px 3px 10px #000;
+            margin-bottom: 15px;
+        }
+
+        .menu-header p {
+            font-size: 18px;
+            color: #f1f1f1;
+        }
+
+        .line {
+            width: 100px;
+            height: 4px;
+            background: #ffd166;
+            margin: 20px auto;
+            border-radius: 10px;
+        }
+
+        /* Menu container */
+        .menu-container {
+            width: 90%;
+            max-width: 1100px;
+            margin: auto;
+            padding-bottom: 60px;
+        }
+
+        /* Menu section */
+        .menu-section {
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 209, 102, 0.25);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+            backdrop-filter: blur(8px);
+        }
+
+        /* Section headings */
+        .menu-section h2 {
+            color: #ffd166;
+            text-align: center;
+            font-size: 30px;
+            margin-bottom: 25px;
+            border-bottom: 2px solid #ffd166;
+            padding-bottom: 12px;
+        }
+
+        /* Menu list */
+        .menu-section ul {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
+
+        /* Individual menu item */
+        .menu-section li {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 18px 20px;
+            border-radius: 12px;
+            color: #fff;
+            font-size: 17px;
+            transition: all 0.3s ease;
+            border-left: 4px solid #ffd166;
+        }
+
+        /* Menu item hover */
+        .menu-section li:hover {
+            background: linear-gradient(90deg, #d97706, #b45309);
+            transform: translateX(8px);
+            box-shadow: 0 5px 15px rgba(255, 209, 102, 0.25);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: rgba(0, 0, 0, 0.85);
+            color: #ccc;
+        }
+
+        footer span {
+            color: #ffd166;
+        }
+
+        /* Mobile design */
+        @media (max-width: 700px) {
+
+            nav {
+                flex-direction: column;
+                gap: 5px;
+            }
+
+            nav a {
+                width: 100%;
+                text-align: center;
+            }
+
+            .menu-header h1 {
+                font-size: 40px;
+            }
+
+            .menu-container {
+                width: 94%;
+            }
+
+            .menu-section {
+                padding: 20px;
+            }
+
+            .menu-section ul {
+                grid-template-columns: 1fr;
+            }
+
+            .menu-section h2 {
+                font-size: 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index copy.html">HOME</a>
+        <a href="about us.html">ABOUT US</a>
+        <a href="main menu.html">MENU</a>
+        <a href="specials.html">OUR SPECIALS</a>
+        <a href="contact.html">CONTACT US</a>
+    </nav>
+
+    <!-- Menu introduction -->
+    <header class="menu-header">
+        <h1>🍽️ Our Menu</h1>
+        <div class="line"></div>
+        <p>Delicious meals, refreshing drinks and unforgettable flavours.</p>
+    </header>
+
+    <!-- Menu -->
+    <main class="menu-container">
+
+        <!-- Breakfast -->
+        <section class="menu-section">
+            <h2>🍳 Breakfast</h2>
+
+            <ul>
+                <li>English Breakfast</li>
+                <li>Oats with Fruits</li>
+                <li>Akara and Pap</li>
+                <li>Moimoi and Custard</li>
+                <li>Yam and Egg Sauce</li>
+                <li>Plantain and Egg</li>
+            </ul>
+        </section>
+
+        <!-- Main Meals -->
+        <section class="menu-section">
+            <h2>🍛 Main Meals</h2>
+
+            <ul>
+                <li>Jollof Rice and Chicken</li>
+                <li>Fried Rice and Turkey</li>
+                <li>Coconut Rice and Fish</li>
+                <li>Ofada Rice</li>
+                <li>Chicken Alfredo Pasta</li>
+                <li>Grilled Chicken Salad</li>
+            </ul>
+        </section>
+
+        <!-- Soups -->
+        <section class="menu-section">
+            <h2>🥣 Soups</h2>
+
+            <ul>
+                <li>Vegetable Soup</li>
+                <li>Efo Riro</li>
+                <li>Egusi Soup</li>
+                <li>Okra Soup</li>
+            </ul>
+        </section>
+
+        <!-- Small Chops -->
+        <section class="menu-section">
+            <h2>🥟 Small Chops & Appetizers</h2>
+
+            <ul>
+                <li>Puff-Puff</li>
+                <li>Samosa</li>
+                <li>Spring Rolls</li>
+                <li>Suya</li>
+                <li>Snacks</li>
+            </ul>
+        </section>
+
+        <!-- Drinks -->
+        <section class="menu-section">
+            <h2>🥤 Drinks</h2>
+
+            <ul>
+                <li>Chapman</li>
+                <li>Zobo</li>
+                <li>Tigernut Drink</li>
+                <li>Fresh Orange Juice</li>
+                <li>Pineapple Juice</li>
+                <li>Smoothies</li>
+                <li>Coffee & Cappuccino</li>
+                <li>Tea</li>
+            </ul>
+        </section>
+
+        <!-- Desserts -->
+        <section class="menu-section">
+            <h2>🍰 Desserts</h2>
+
+            <ul>
+                <li>Fruit Salad</li>
+                <li>Ice Cream</li>
+                <li>Cheesecake</li>
+                <li>Chocolate Cake</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        © 2026 <span>Our Restaurant</span> — Good Food, Great Memories.
+    </footer>
+
+</body>
+</html>
+</body>
+</html> 
